@@ -65,8 +65,8 @@ public class Txanpona {
         }
 
         Gson gson = new Gson();
-        Txanpona txanpon = gson.fromJson(line, Txanpona.class);
+        txanpona = gson.fromJson(line, Txanpona.class);
 
-        return txanpon;
+        return txanpona;
     }
 }
