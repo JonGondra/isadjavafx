@@ -75,6 +75,7 @@ public class Liburua {
         }
 
         String[] zatiak = line.split("details\":");
+        System.out.println(line);
         line = zatiak[1].substring(0, zatiak[1].length()-1);
         zatiak = line.split(", \"preview\":");
         line = zatiak[0];

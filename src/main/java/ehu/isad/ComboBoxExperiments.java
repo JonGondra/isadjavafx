@@ -77,7 +77,7 @@ public class ComboBoxExperiments extends Application  {
                 new Argazki("Sandia", "sandia.png")
         ));
 
-        ObservableList<String> bildumaList = FXCollections.observableArrayList(bildumak);
+        ObservableList<String> bildumaList = FXCollections.observableArrayList();
         bildumaList.addAll(bildumak);
 
         ObservableList<Argazki> argazkiList = FXCollections.observableArrayList();

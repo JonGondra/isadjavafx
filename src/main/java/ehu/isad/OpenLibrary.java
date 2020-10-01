@@ -7,7 +7,7 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
-public class OpenLibrary {
+public class OpenLibrary extends Application{
 
 
     public void start(Stage primaryStage) {
